@@ -1,0 +1,208 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	font-size: 48px;
+	margin: 0px auto;
+	padding: 10px 20px 20px 50px;
+	font-weight: 700;
+}
+
+.small-nav{
+	display: none
+}
+
+a {
+	color: rgb(52, 150, 101);
+	text-decoration: none;
+	padding: 0 10px 0px 10px;
+	font-size: 24px;
+}
+
+.brand-elements {
+	display: inline-block;
+}
+
+.services {
+  display: inline-block;
+  padding: 25px;
+  max-width: 80%
+}
+
+.icon {
+	max-width: 45px;
+	padding-right: 25px;
+}
+
+.gallery {
+	text-align: center;
+	padding: 20px 0 0 20px
+}
+
+.project {
+	box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
+	max-height: 200px;
+	border-radius: 5px
+}
+
+.card {
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	max-width: 35%;
+	/* box-shadow: 1px 1px 20px 2px rgb(211, 211, 211); */
+}
+
+.contact-info {
+	padding: 80px 0 80px 0;
+}
+
+.email {
+	font-size: 24px;
+}
+
+.contact-me {
+	font-size: 14px;
+	padding: 10px;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 1px 1px 2px 2px rgb(211, 211, 211)
+}
+
+footer {
+	/* background-color: rgb(66, 133, 244); */
+	padding-top: 15px;
+	text-align: center;
+}
+
+.footer-link {
+	color: black;
+	display: inline-block;
+}
+
+@media screen and (max-width: 700px) {
+	.header {
+    padding: 5px;
+    text-align: center;
+	}
+	.large-nav {
+		display: none;
+	}
+	.small-nav {
+		display: contents; 
+		color: white;
+	}
+	a {
+		padding: 0 5px 0 5px;
+	}
+	.nav-link {
+		font-size: 10px;
+	}
+	.brand-statement {
+		font-size: 16px;
+		max-width: 100%
+	}
+	.projects {
+		text-align: center;
+	}
+	.project {
+		display: inline-block;
+		max-width: 75%
+	}
+	.email{
+		font-size: 14px;
+	}
+	.card{
+		max-width: 75%;
+	}
+	#section-header {
+		font-size: 18px
+	}
+	.contact-me {
+		display: none;
+	}
+	footer {
+		text-align: center;
+	}
+	.footer-nav {
+		display: inline-block;
+	}
+	.footer-link {
+		color: black;
+		font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.header {
+		background-color:  rgb(52, 150, 101);
+		color: black;
+		padding-left: 15px;
+    /* text-align: center; */
+	}
+	nav {
+		text-align: right;
+	}
+	.small-nav {
+    color: white;
+	}
+	a {
+		padding: 0 5px 0 5px;
+	}
+	.nav-link {
+		font-size: 22px;
+	}
+	.brand-statement {
+		font-size: 14px;
+		max-width: 100%;
+	}
+	.icon {
+		max-width: 45px;
+		padding-right: 10px; 
+	}
+	.projects {
+		text-align: center;
+	}
+	.project {
+		display: inline-block;
+		max-width: 75%
+	}
+	.email{
+		font-size: 18px;
+	}
+	.card{
+		max-width: 75%;
+	}
+	.contact-me {
+		display: none;
+  }
+  .contact {
+    max-width: 80%;
+  }
+	footer {
+		text-align: center;
+		/* padding: 10px; */
+		font-size: 12px;
+	}
+	.footer-nav {
+		display: inline-block;
+		/* font-size: 24px; */
+	}
+	.footer-link {
+		color: black;
+	}
+	h6{ 
+		text-align: center;
+	}
+}
