@@ -77,10 +77,6 @@ li {
   max-width: 35%
 }
 
-{
-
-}
-
 footer {
 	/* background-color: rgb(66, 133, 244); */
 	padding-top: 15px;
@@ -124,9 +120,6 @@ footer {
 	}
 	#section-header {
 		font-size: 18px
-	}
-	.contact-me, .cert {
-		max-width: 80%;
 	}
 	footer {
 		text-align: center;
