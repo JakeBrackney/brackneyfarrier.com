@@ -38,9 +38,14 @@ a {
   max-width: 80%
 }
 
-.icon {
-	max-width: 45px;
-	padding-right: 25px;
+.service-list {
+  display: inline-block;
+  padding-right: 50px;
+  padding-left: 50px;
+  }
+
+li {
+  /* list-style-type: none; */
 }
 
 .gallery {
@@ -62,32 +67,24 @@ a {
 	/* box-shadow: 1px 1px 20px 2px rgb(211, 211, 211); */
 }
 
-.contact-info {
-	padding: 80px 0 80px 0;
-}
-
-.email {
-	font-size: 24px;
-}
-
-.contact-me {
+.contact-me, .cert {
 	font-size: 14px;
 	padding: 10px;
 	outline: none;
 	border-radius: 5px;
 	border: none;
-	box-shadow: 1px 1px 2px 2px rgb(211, 211, 211)
+  box-shadow: 1px 1px 2px 2px rgb(211, 211, 211);
+  max-width: 35%
+}
+
+{
+
 }
 
 footer {
 	/* background-color: rgb(66, 133, 244); */
 	padding-top: 15px;
 	text-align: center;
-}
-
-.footer-link {
-	color: black;
-	display: inline-block;
 }
 
 @media screen and (max-width: 700px) {
@@ -128,8 +125,8 @@ footer {
 	#section-header {
 		font-size: 18px
 	}
-	.contact-me {
-		display: none;
+	.contact-me, .cert {
+		max-width: 80%;
 	}
 	footer {
 		text-align: center;
@@ -184,9 +181,6 @@ footer {
 	.card{
 		max-width: 75%;
 	}
-	.contact-me {
-		display: none;
-  }
   .contact {
     max-width: 80%;
   }
